@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+.body_block {
+    background: rgb(255, 255, 255);
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    padding: 35px 0;
+}
+.form_block {
+    width: 350px;
+    height: 398px;
+    border-radius: 1px;
+    border: 1px solid rgb(160, 149, 149);
+    text-align: center;
+    margin: 45px auto 0 auto;
+}
+
+.inp {
+    width: 258px;
+    font-size: 12px;
+    border: 1px solid rgb(169, 167, 167) ;
+    color: rgb(161, 154, 154);
+    border-radius: 1px ;
+    background-color: #FAFAFA;
+    margin: 2.5px;
+    padding: 10px ;
+}
+
+.btn {
+    background-color: #4cb5f9;
+    color: #fff;
+    padding: 9px 5px;
+    border: none;
+    width: 258px;
+    border-radius: 6px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(126, 126, 126);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chert {
+    border-bottom: 1px solid rgb(147, 145, 145);
+    width: 101px;
+    height: 1px;
+}
+.or {
+    max-width: 258px;
+    margin: 0 auto;
+}
+
+.face {
+    max-width: 168px;
+
+    margin: 15px auto;
+}
+.face p {
+    color : #385185;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.forgot {
+    font-size: 12px;
+    color: #00376B;
+}
+
+footer {
+    color: #737373;
+    font-size: 12px;
+    gap: 25px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.copy {
+    max-width: 200px;
+    margin: 20px auto;
+
+}
+
+.sign_up {
+    border: 1px solid rgb(160, 149, 149);
+    padding: 20px;
+    max-width: 350px;
+
+    margin: 22px auto 50px auto;
+}
+
+.reges {
+    color: #0095F6;
+    font-size: 14px;
+}
+.no_acc {
+    font-size: 14px;
+    font-weight: 500;
+}
+@media (max-width:500px) {
+    .form_block , .sign_up{
+        border: none;
+    }
+    .corps {
+        display: none;
+    }
+}
